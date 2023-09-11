@@ -1,0 +1,200 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue, #2E2F42);
+}
+.navigation > a {
+  color: var(--navyblue);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.313rem;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.navigation-logo-web {
+  color: var(--iris, #4D5AE5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.313rem;
+  letter-spacing: 0.54px;
+  /* text-decoration: none; */
+}
+.navigation-section {
+  color: var(--navyblue, #2E2F42);
+  /* text-transform: uppercase; */
+}
+.navigation-list a {
+  color: var(--navyblue);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; 
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+.navigation-section a:hover,
+.address-section a:hover {
+  color: #404BBF;
+}
+.address-section a {
+  color: var(--slate, #434455);
+  font-style: normal;
+  line-height: 1.5rem; 
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.hero-container { 
+  background-color: var(--navyblue,#2E2F42);
+  width: 1440px;
+  flex-shrink: 0;
+}
+.hero-container h1 {
+  width: 496px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: 1.12px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: capitalize;
+}
+.hero-container span {
+  text-transform: lowercase;
+}
+.hero-button {
+  /* button text */
+  color: var(--white, #FFF);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.64px;
+
+  /* button style */
+  padding: 16px 32px;
+  border-radius: 4px;
+  border-style: none;
+  background: var(--iris, #4D5AE5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.hero-button:hover {
+  background: var(--ocean, #404BBF);
+}
+.section1 {
+  width: 264px;
+}
+.section1 h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5rem; 
+  letter-spacing: 0.4px;
+}
+.section1 p {
+ color: var(--slate, #434455); 
+ line-height: 1.5rem;
+ letter-spacing: 0.32px;
+}
+.section2-header,
+.section3-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.section2 img {
+  height: 300px;
+}
+.section3 img {
+  height: 260px;
+}
+.section3-nametag {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.4px;
+}
+.section3-position {
+  color: var(--slate, #434455);
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.32px;
+}
+/* CSS for Portfolio */
+.filter-section button {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #E7E9FC);
+  background: var(--cloud, #F4F4FD);
+  color: var(--iris, #4D5AE5);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.64px;
+}
+.filter-section button:hover {
+  color: var(--white, #fff);
+  border-radius: 4px;
+  background: var(--ocean, #404BBF);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.card-section-img {
+  width: 360px;
+}
+.card-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.4px;
+}
+.card-content {
+  color: var(--slate, #434455);
+  line-height: 1.5rem;
+  letter-spacing: 0.32px;
+}
+.footer {
+  background-color: var(--iris, #2E2F42);
+  width: 100%;
+}
+.footer-logo-web {
+  color: var(--iris, #4D5AE5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.313rem;
+  letter-spacing: 0.54px;
+}
+.footer > a {
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.313rem;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer p {
+  color: var(--cloud, #F4F4FD);
+  line-height: 1.5rem; 
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  width: 264px;
+  height: 72px;
+  text-align:left;
+}
